@@ -14,13 +14,11 @@ import HelloWorld from "./components/HelloWorld.vue";
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style lang="less">
-.foo {
-  display: ~"none \9";
-}
-</style>
-
 <style scoped>
+.foo {
+  display: none\9;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
